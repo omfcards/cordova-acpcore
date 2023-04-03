@@ -1,0 +1,23 @@
+# This is a comment.
+# Each line is a file pattern followed by one or more owners.
+
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence.
+## Default Owners
+* @omfcards/appdev-backend-approvers
+
+## DevOps Shared
+## Directories
+/bin @omfcards/devops-collaborators @omfcards/appdev-backend-approvers
+/ca-certificates @omfcards/devops-collaborators @omfcards/appdev-backend-approvers
+/helm @omfcards/devops-collaborators 
+/scripts @omfcards/devops-collaborators @omfcards/appdev-backend-approvers
+/terraform @omfcards/devops-collaborators 
+## Files
+.gitignore @omfcards/devops-collaborators @omfcards/appdev-backend-approvers
+Dockerfile @omfcards/devops-collaborators 
+Jenkinsfile @omfcards/devops-collaborators 
+README.md @omfcards/devops-collaborators @omfcards/appdev-backend-approvers
+environments.json @omfcards/devops-collaborators
+## DevOps Only
+CODEOWNERS @omfcards/devops-collaborators
